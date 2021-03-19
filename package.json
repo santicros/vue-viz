@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "@testing-library/vue": "^6.4.0",
+    "@types/d3-scale": "^3.2.2",
     "@types/jest": "^26.0.21",
     "@typescript-eslint/eslint-plugin": "^4.18.0",
     "@typescript-eslint/parser": "^4.18.0",
