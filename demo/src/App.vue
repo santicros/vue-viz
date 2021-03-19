@@ -70,8 +70,8 @@ body {
 }
 
 .container {
-  width: min(100vw, 60rem);
-  height: min(60vw, 35rem);
+  width: min(100%, 60rem);
+  height: min(80vw, 35rem);
   padding: 2rem;
   border: 2px solid gold;
 }
