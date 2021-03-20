@@ -25,7 +25,6 @@
           >{{ tick }}</text
         >
       </g>
-
       <SvgScalable>
         <path
           :d="linePath"
@@ -81,8 +80,6 @@ export default defineComponent({
 
     const xTicks = x.ticks(4);
     const yTicks = y.ticks(3);
-
-    console.log(yTicks);
 
     const lineGenerator = line()
       .x((d: number) => x(xAccessor(d)))
