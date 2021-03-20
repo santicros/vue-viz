@@ -10,7 +10,8 @@
     "format": "prettier --write './**/*.{ts,js,vue,css,md,json,html}' --config ./.prettierrc"
   },
   "dependencies": {
-    "d3-scale": "^3.2.3"
+    "d3-scale": "^3.2.3",
+    "d3-shape": "^2.1.0"
   },
   "peerDependencies": {
     "vue": "^3.0.7"
